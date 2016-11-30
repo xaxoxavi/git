@@ -7,6 +7,7 @@ public class Persona {
     private String nom;
     private String cognom;
     private Sexe sexe;
+    private Integer edad;
 
     public Persona() {
     }
