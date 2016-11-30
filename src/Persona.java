@@ -6,6 +6,7 @@ public class Persona {
     private String dni;
     private String nom;
     private String cognom;
+    private Integer edad;
 
     public Persona() {
     }
