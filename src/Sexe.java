@@ -2,5 +2,5 @@
  * @author Xavi Torrens
  */
 public enum Sexe {
-    Masculi, Femeni
+    Masculi, Femeni, No_Definit
 }
