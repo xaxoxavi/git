@@ -4,8 +4,8 @@
 public class Persona {
 
     private String dni;
-    private String nom;
-    private String cognom;
+    private String name;
+    private String firstName;
     private Sexe sexe;
     private Integer edad;
 
@@ -20,19 +20,19 @@ public class Persona {
         this.dni = dni;
     }
 
-    public String getNom() {
-        return nom;
+    public String getName() {
+        return name;
     }
 
-    public void setNom(String nom) {
-        this.nom = nom;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getCognom() {
-        return cognom;
+    public String getFirstName() {
+        return firstName;
     }
 
-    public void setCognom(String cognom) {
-        this.cognom = cognom;
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
     }
 }
